@@ -1,0 +1,62 @@
+TRANSLATION QUALITY ANALYSIS
+==================================================
+
+Total files analyzed: 37
+Total empty translations: 1143
+Average BLEU across all files: 12.34
+
+By Method:
+             avg_bleu  empty_count  num_valid_samples
+method                                               
+Self-CoT        14.00          323                277
+Teacher-CoT     24.03          170                430
+
+
+EN-ES:
+------------------------------
+Direct: BLEU=0.0, Empty=50
+Self-CoT: BLEU=0.0, Empty=50
+Teacher-CoT: BLEU=3.26, Empty=9
+Direct: BLEU=0.0, Empty=50
+Self-CoT: BLEU=2.32, Empty=14
+Teacher-CoT: BLEU=3.68, Empty=25
+Direct: BLEU=0.0, Empty=50
+Self-CoT: BLEU=4.23, Empty=33
+Teacher-CoT: BLEU=5.16, Empty=25
+Direct: BLEU=0.0, Empty=50
+Self-CoT: BLEU=5.42, Empty=29
+Teacher-CoT: BLEU=3.11, Empty=1
+Best: Self-CoT (BLEU: 5.42)
+
+ES-EN:
+------------------------------
+Direct: BLEU=0.0, Empty=50
+Self-CoT: BLEU=0.0, Empty=50
+Teacher-CoT: BLEU=36.28, Empty=5
+Direct: BLEU=0.0, Empty=50
+Self-CoT: BLEU=31.29, Empty=12
+Teacher-CoT: BLEU=40.21, Empty=18
+Direct: BLEU=0.0, Empty=50
+Self-CoT: BLEU=9.47, Empty=26
+Teacher-CoT: BLEU=30.53, Empty=27
+Direct: BLEU=0.0, Empty=50
+Self-CoT: BLEU=22.75, Empty=29
+Teacher-CoT: BLEU=36.28, Empty=1
+Best: Teacher-CoT (BLEU: 40.21)
+
+FR-EN:
+------------------------------
+Direct: BLEU=0.0, Empty=50
+Self-CoT: BLEU=31.97, Empty=10
+Teacher-CoT: BLEU=33.6, Empty=5
+Direct: BLEU=0.0, Empty=50
+Direct: BLEU=0.0, Empty=50
+Self-CoT: BLEU=32.95, Empty=10
+Teacher-CoT: BLEU=30.23, Empty=26
+Direct: BLEU=0.0, Empty=50
+Self-CoT: BLEU=7.6, Empty=35
+Teacher-CoT: BLEU=30.8, Empty=27
+Direct: BLEU=0.0, Empty=50
+Self-CoT: BLEU=20.06, Empty=25
+Teacher-CoT: BLEU=35.26, Empty=1
+Best: Teacher-CoT (BLEU: 35.26)
